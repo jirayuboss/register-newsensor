@@ -1,0 +1,9 @@
+2019-05-10 06:35:51,438 DEBUG    root            Loaded Command Group: [u'gcloud', u'app']
+2019-05-10 06:35:51,559 DEBUG    root            Loaded Command Group: [u'gcloud', u'app', u'browse']
+2019-05-10 06:35:51,562 DEBUG    root            Running [gcloud.app.browse] with arguments: []
+2019-05-10 06:35:51,563 INFO     ___FILE_ONLY___ Did not detect your browser. Go to this link to view your app:
+
+2019-05-10 06:35:51,565 INFO     root            Display format: "value(url)"
+2019-05-10 06:35:51,565 INFO     ___FILE_ONLY___ https://register-new-sensor.appspot.com
+
+2019-05-10 06:35:51,570 DEBUG    root            SDK update checks are disabled.

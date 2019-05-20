@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "cie-smart-city",
+  "private_key_id": "e872616245974886137fcca735e4129f2c6912a6",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDWlA5CzpC3LF0v\nFaki6lW7Y9CoEL2B7tOntssrZdEhs5Z6TdLRiJUXm+Ga31qOlEmNdRqlB4e+dwYB\nLcIKdF6d7DHSKS5AniNxe4M3Oex31RFFT5ywlhoc7hj0Mrscd5ibejUNOUC5XboY\n2xqutwhjYgSy5/abnMBw+j53+1nZfkMkvfJlbFMb9YSQg5pfr62M8f1g2KJrX1rU\nqv9OxtTrXC/6Edj2wUyVqwSfiRnS14OcF8rDNA8dH6GT2LtoPoVl7z97te3xoLCI\nUEhqPL+/yRmHMStUU1vtcqfmZg0FERDB9qi97ZgBVz1yQeTwtryxrmnZUvHigSD5\nKxCqGOknAgMBAAECgf8k4U2SLe6xjO53KUHovl391yoFuNrZejLmoIRK8TUAld1H\nKBkT6mW1qRUdiUYHO3Vo2re5pZGvKsXdbf/rzBR3ECF//ZP1hziQSKpE06/Q6M4P\nG5/SufnC/ylKz21ZdzTDhD2aCD0XnwRdQUtUvCC09CPanAPGuypYQKp79Ld8qeZK\n/xF4D9Xvq0TR4aqfoc6nju0chkY1whks8J2jdasPDkofr2UsrP9Uw27YyBQjVKIA\noG0okzjQhihnDAOWGHc4vI48+pg7XfdXU7f+Pe0hcC2ofKbL6UZ/K7kK8hkMX86b\nor/h79QuzL7OxFq9d5R05unjAh2CE9tWvcHS64ECgYEA7zv2eL8ajATVxk7rZfaI\njMxJT2PlCVsYEhaWcOURbU4WMeJVddndbCgQwFLb7VPwz2vqIwZE71UpKdZVfOK+\nZRAbhOSVY16VxFr/UZWV7sD7orntIM+wQPs8n/JF5Be1L9n6QjWWF5dIWf1ZoLzn\n1kiW2cESsEIKWKSnJnXGwPECgYEA5Z2/jjcEXl/S6fUVYASBtlufe4vIoG0uN6xn\nOZfQtg1ssWlWdWJLmpHnRpE/D99t2vpOEbcbdMlwz3CvXb8LdcMyHaV4yVkVaA6E\n+sk+jtP0ZMllJfW59anMBrYN4yTLQ+s6Ug/8Fv2sZb2QDONkT5TVaJi0m7adYv+U\nz6S+y5cCgYEAjfhbsBRYwLct1d2HvJ6tMkEZUE/L3917T2CwLpcB3If2i+vxI1sD\nF+g+6KNDeHfT9IPqEpbp2c4D+5wCZ3Z33qnMavTr4miDIF+QHO5UZ7eGnW8Q1ePq\niOWPeKvh5hZbo+YLqbb7N0zD1wOOaOEyA+xX+Smm2YqXcTtlJmHGbUECgYEAyySV\n/X8FOW1zjxMKdylljO1gmpAfznbppc28gYKj3vzfhdIY8L8m/jhJMfB8p1FXwp0i\nhp/GBbvWN2CNddX4kJZB92KXCyPqQWZfFfUHiJtSo/xdpYjRnds8K0/T13qM7qjk\nrwd/UuPZKyXblNt0useFSwWW/BBDC/vsLwyk1D8CgYA84Of43u5qngwttH4KNI2T\n+LbleOt369GDn5D7EWqLUXeotdXL/upFkIT987cp/c9v8IK7SAgM3Ac3jYHI9D7K\nJuXORcD2Fpyd9kj7E+FWDrKGSxUBLjGlqLZv5/RIv6ZFFCX7yMl2teFtBxNnmHFZ\nrqjwVdnyZBTA2R1f1dXPwA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "all-sensors@cie-smart-city.iam.gserviceaccount.com",
+  "client_id": "102963332609171715039",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/all-sensors%40cie-smart-city.iam.gserviceaccount.com"
+}

@@ -1,0 +1,23 @@
+2019-05-09 16:19:31,970 DEBUG    root            Loaded Command Group: [u'gcloud', u'auth']
+2019-05-09 16:19:31,971 DEBUG    root            Loaded Command Group: [u'gcloud', u'auth', u'application_default']
+2019-05-09 16:19:31,973 DEBUG    root            Loaded Command Group: [u'gcloud', u'auth', u'application-default', u'login']
+2019-05-09 16:19:31,975 DEBUG    root            Running [gcloud.auth.application-default.login] with arguments: []
+2019-05-09 16:19:33,600 INFO     ___FILE_ONLY___ Go to the following link in your browser:
+
+    https://accounts.google.com/o/oauth2/auth?redirect_uri=urn%3Aietf%3Awg%3Aoauth%3A2.0%3Aoob&prompt=select_account&response_type=code&client_id=764086051850-6qr4p6gpi6hn506pt8ejuq83di341hur.apps.googleusercontent.com&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&access_type=offline
+
+
+
+2019-05-09 16:19:45,343 INFO     oauth2client.client Successfully retrieved access token
+2019-05-09 16:19:45,344 INFO     ___FILE_ONLY___ 
+Credentials saved to file: [/home/jirayupromsongwong/.config/gcloud/application_default_credentials.json]
+
+2019-05-09 16:19:45,344 INFO     ___FILE_ONLY___ 
+These credentials will be used by any library that requests
+Application Default Credentials.
+
+To generate an access token for other uses, run:
+  gcloud auth application-default print-access-token
+
+2019-05-09 16:19:45,345 INFO     root            Display format: "none"
+2019-05-09 16:19:45,348 DEBUG    root            SDK update checks are disabled.

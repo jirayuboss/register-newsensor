@@ -1,0 +1,19 @@
+2019-05-08 14:36:26,571 DEBUG    root            Loaded Command Group: [u'gcloud', u'init']
+2019-05-08 14:36:26,574 DEBUG    root            Running [gcloud.init] with arguments: []
+2019-05-08 14:36:26,574 INFO     ___FILE_ONLY___ Welcome! This command will take you through the configuration of gcloud.
+
+
+2019-05-08 14:36:26,575 INFO     ___FILE_ONLY___ Settings from your current configuration [default] are:
+
+2019-05-08 14:36:26,588 INFO     ___FILE_ONLY___ core:
+  account: 111320408594-compute@developer.gserviceaccount.com
+  disable_usage_reporting: 'True'
+  project: cie-smart-city
+
+2019-05-08 14:36:26,589 INFO     ___FILE_ONLY___ 
+
+2019-05-08 14:36:44,845 INFO     ___FILE_ONLY___ 
+
+Command killed by keyboard interrupt
+
+

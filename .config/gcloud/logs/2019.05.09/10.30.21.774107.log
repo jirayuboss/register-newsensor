@@ -1,0 +1,30 @@
+2019-05-09 10:30:21,780 DEBUG    root            Loaded Command Group: [u'gcloud', u'config']
+2019-05-09 10:30:21,782 DEBUG    root            Loaded Command Group: [u'gcloud', u'config', u'config_helper']
+2019-05-09 10:30:21,784 DEBUG    root            Running [gcloud.config.config-helper] with arguments: [--format: "json"]
+2019-05-09 10:30:21,794 INFO     root            Display format: "default json"
+2019-05-09 10:30:21,795 INFO     ___FILE_ONLY___ {
+  "configuration": {
+    "active_configuration": "default",
+    "properties": {
+      "compute": {
+        "region": "us-central1",
+        "zone": "us-central1-c"
+      },
+      "core": {
+        "account": "jirayupromsongwong@gmail.com",
+        "disable_usage_reporting": "True",
+        "project": "cie-smart-city"
+      }
+    }
+  },
+  "credential": {
+    "access_token": "ya29.GlwEB5ro9mgpO0pGu71sqLvmW-3T0bcEh34rjKVIBXrEilYm4B_7iE2lYq0Upz6vLsJOWzCGcdMkGHoZyKTnzmxLlRRqrr6yjByOT-PIhoaYkraLPP-6n7P1AEqSng",
+    "token_expiry": "2019-05-09T11:25:51Z"
+  },
+  "sentinels": {
+    "config_sentinel": "/home/jirayupromsongwong/.config/gcloud/config_sentinel"
+  }
+}
+2019-05-09 10:30:21,795 INFO     ___FILE_ONLY___ 
+
+2019-05-09 10:30:21,799 DEBUG    root            SDK update checks are disabled.

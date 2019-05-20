@@ -1,0 +1,9 @@
+2019-05-09 16:27:02,309 DEBUG    root            Loaded Command Group: [u'gcloud', u'app']
+2019-05-09 16:27:02,416 DEBUG    root            Loaded Command Group: [u'gcloud', u'app', u'browse']
+2019-05-09 16:27:02,419 DEBUG    root            Running [gcloud.app.browse] with arguments: []
+2019-05-09 16:27:02,420 INFO     ___FILE_ONLY___ Did not detect your browser. Go to this link to view your app:
+
+2019-05-09 16:27:02,421 INFO     root            Display format: "value(url)"
+2019-05-09 16:27:02,422 INFO     ___FILE_ONLY___ https://cie-smart-city.appspot.com
+
+2019-05-09 16:27:02,427 DEBUG    root            SDK update checks are disabled.

@@ -1,0 +1,101 @@
+2019-05-10 06:32:48,230 DEBUG    root            Loaded Command Group: [u'gcloud', u'init']
+2019-05-10 06:32:48,233 DEBUG    root            Running [gcloud.init] with arguments: []
+2019-05-10 06:32:48,233 INFO     ___FILE_ONLY___ Welcome! This command will take you through the configuration of gcloud.
+
+
+2019-05-10 06:32:48,234 INFO     ___FILE_ONLY___ Settings from your current configuration [default] are:
+
+2019-05-10 06:32:48,237 INFO     ___FILE_ONLY___ core:
+  account: jirayupromsongwong@gmail.com
+  disable_usage_reporting: 'True'
+  project: register-new-sensor
+
+2019-05-10 06:32:48,237 INFO     ___FILE_ONLY___ 
+
+2019-05-10 06:32:50,261 INFO     ___FILE_ONLY___ Your current configuration has been set to: [default]
+
+
+2019-05-10 06:32:50,261 INFO     ___FILE_ONLY___ You can skip diagnostics next time by using the following flag:
+
+2019-05-10 06:32:50,262 INFO     ___FILE_ONLY___   gcloud init --skip-diagnostics
+
+
+2019-05-10 06:32:50,262 INFO     ___FILE_ONLY___ Network diagnostic detects and fixes local network connection issues.
+
+2019-05-10 06:32:50,263 INFO     ___FILE_ONLY___ Checking network connection...
+2019-05-10 06:32:51,266 INFO     ___FILE_ONLY___ Reachability Check passed.
+
+2019-05-10 06:32:51,267 INFO     ___FILE_ONLY___ Network diagnostic (1/1 checks) passed.
+
+
+2019-05-10 06:32:52,671 INFO     ___FILE_ONLY___ You are logged in as: [jirayupromsongwong@gmail.com].
+
+
+2019-05-10 06:32:54,750 INFO     ___FILE_ONLY___ Your current project has been set to: [register-new-sensor].
+
+
+2019-05-10 06:32:54,751 DEBUG    root            Loaded Command Group: [u'gcloud', u'compute', u'project_info']
+2019-05-10 06:32:54,757 DEBUG    root            Loaded Command Group: [u'gcloud', u'compute', u'project-info', u'describe']
+2019-05-10 06:32:54,758 INFO     root            Executing: [gcloud compute project-info describe --quiet]
+2019-05-10 06:32:54,761 DEBUG    root            Running [gcloud.compute.project-info.describe] with arguments: [--no-user-output-enabled: "false", --quiet: "True", --verbosity: "none"]
+2019-05-10 06:32:54,952 DEBUG    root            (gcloud.compute.project-info.describe) HTTPError 403: Access Not Configured. Compute Engine API has not been used in project 191807663055 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/compute.googleapis.com/overview?project=191807663055 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.
+Traceback (most recent call last):
+  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 848, in Execute
+    resources = calliope_command.Run(cli=self, args=args)
+  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 770, in Run
+    resources = command_instance.Run(args)
+  File "/usr/lib/google-cloud-sdk/lib/surface/compute/project_info/describe.py", line 39, in Run
+    project=project_ref.projectId))])[0]
+  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/api_lib/compute/client_adapter.py", line 91, in MakeRequests
+    progress_tracker=progress_tracker,
+  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/api_lib/compute/request_helper.py", line 253, in MakeRequests
+    requests=requests, http=http, batch_url=batch_url)
+  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/api_lib/compute/batch_helper.py", line 106, in MakeRequests
+    batch_request_callback=batch_checker.BatchCheck)
+  File "/usr/bin/../lib/google-cloud-sdk/lib/third_party/apitools/base/py/batch.py", line 222, in Execute
+    batch_http_request.Execute(http)
+  File "/usr/bin/../lib/google-cloud-sdk/lib/third_party/apitools/base/py/batch.py", line 494, in Execute
+    self.__callback(response, exception)
+  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/api_lib/compute/batch_helper.py", line 73, in BatchCheck
+    is_batch_request=True)
+  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/api_lib/util/apis.py", line 240, in PromptToEnableApi
+    raise exception
+HttpException: HTTPError 403: Access Not Configured. Compute Engine API has not been used in project 191807663055 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/compute.googleapis.com/overview?project=191807663055 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.
+2019-05-10 06:32:54,953 ERROR    root            (gcloud.compute.project-info.describe) HTTPError 403: Access Not Configured. Compute Engine API has not been used in project 191807663055 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/compute.googleapis.com/overview?project=191807663055 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.
+2019-05-10 06:32:54,953 INFO     root            [compute project-info describe --quiet] has failed
+
+2019-05-10 06:32:54,954 INFO     ___FILE_ONLY___ Not setting default zone/region (this feature makes it easier to use
+[gcloud compute] by setting an appropriate default value for the
+--zone and --region flag).
+See https://cloud.google.com/compute/docs/gcloud-compute section on how to set
+default compute region and zone manually. If you would like [gcloud init] to be
+able to do this for you the next time you run it, make sure the
+Compute Engine API is enabled for your project on the
+https://console.developers.google.com/apis page.
+
+
+2019-05-10 06:32:54,954 DEBUG    root            Not configuring default .boto file. File already exists at [/home/jirayupromsongwong/.boto].
+2019-05-10 06:32:54,955 INFO     ___FILE_ONLY___ Your Google Cloud SDK is configured and ready to use!
+
+
+2019-05-10 06:32:54,955 INFO     ___FILE_ONLY___ * Commands that require authentication will use jirayupromsongwong@gmail.com by default
+
+2019-05-10 06:32:54,955 INFO     ___FILE_ONLY___ * Commands will reference project `register-new-sensor` by default
+
+2019-05-10 06:32:54,955 INFO     ___FILE_ONLY___ Run `gcloud help config` to learn how to change individual settings
+
+
+2019-05-10 06:32:54,955 INFO     ___FILE_ONLY___ This gcloud configuration is called [default]. You can create additional configurations if you work with multiple accounts and/or projects.
+
+2019-05-10 06:32:54,956 INFO     ___FILE_ONLY___ Run `gcloud topic configurations` to learn more.
+
+
+2019-05-10 06:32:54,956 INFO     ___FILE_ONLY___ Some things to try next:
+
+
+2019-05-10 06:32:54,956 INFO     ___FILE_ONLY___ * Run `gcloud --help` to see the Cloud Platform services you can interact with. And run `gcloud help COMMAND` to get help on any gcloud command.
+
+2019-05-10 06:32:54,956 INFO     ___FILE_ONLY___ * Run `gcloud topic -h` to learn about advanced features of the SDK like arg files and output formatting
+
+2019-05-10 06:32:54,957 INFO     root            Display format: "default"
+2019-05-10 06:32:54,958 DEBUG    root            SDK update checks are disabled.

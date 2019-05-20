@@ -1,0 +1,19 @@
+<html>
+   <body>
+      <form action = "{{ url_for('addsensors') }}" method = "POST">
+         <p>Name <input type = "text" name = "Name" /></p>
+         <p>Sensor ID <input type = "text" name = "sensorID" /></p>
+         <p>Sensor API <input type = "text" name = "sensorAPI" /></p>
+         <select name="project">
+  		<option value="AQD">AQD</option>
+  		<option value="SmartBin">Smart Bin</option>
+  		<option value="FloodDetector">Flood Detector</option>
+		<option value="SmartStreetlight">Smart Streetlight</option>
+		<option value="SmartSoi">Smart Soi</option>
+		<option value="SmartBusstop">Smart Bus Stop</option>
+	 </select>
+         <p><input type = "submit" value = "submit" /></p>
+      </form>
+   <h4>{{data}}</h4>
+   </body>
+</html>

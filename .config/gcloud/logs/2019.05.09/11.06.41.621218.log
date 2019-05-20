@@ -1,0 +1,29 @@
+2019-05-09 11:06:41,622 DEBUG    root            Loaded Command Group: [u'gcloud', u'app']
+2019-05-09 11:06:41,789 DEBUG    root            Loaded Command Group: [u'gcloud', u'app', u'deploy']
+2019-05-09 11:06:41,792 DEBUG    root            Running [gcloud.app.deploy] with arguments: []
+2019-05-09 11:06:41,827 DEBUG    root            (gcloud.app.deploy) An error occurred while parsing file: [/home/jirayupromsongwong/app.yaml]
+Value 'CLOUDSQL_CONNECTION_NAME cie-smart-city:us-central1:all-sensors' for key in EnvironmentVariables does not match expression '^(?:[a-zA-Z_][a-zA-Z0-9_]*)$'
+  in "/home/jirayupromsongwong/app.yaml", line 10, column 67
+Traceback (most recent call last):
+  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 848, in Execute
+    resources = calliope_command.Run(cli=self, args=args)
+  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 770, in Run
+    resources = command_instance.Run(args)
+  File "/usr/lib/google-cloud-sdk/lib/surface/app/deploy.py", line 90, in Run
+    parallel_build=False)
+  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/command_lib/app/deploy_util.py", line 536, in RunDeploy
+    args.deployables, stager, deployables.GetPathMatchers())
+  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/command_lib/app/deployables.py", line 334, in GetDeployables
+    service = Service.FromPath(path, stager, path_matchers)
+  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/command_lib/app/deployables.py", line 102, in FromPath
+    service = matcher(path, stager)
+  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/command_lib/app/deployables.py", line 138, in ServiceYamlMatcher
+    service_info = yaml_parsing.ServiceYamlInfo.FromFile(descriptor)
+  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/api_lib/app/yaml_parsing.py", line 293, in FromFile
+    raise YamlParseError(file_path, e)
+YamlParseError: An error occurred while parsing file: [/home/jirayupromsongwong/app.yaml]
+Value 'CLOUDSQL_CONNECTION_NAME cie-smart-city:us-central1:all-sensors' for key in EnvironmentVariables does not match expression '^(?:[a-zA-Z_][a-zA-Z0-9_]*)$'
+  in "/home/jirayupromsongwong/app.yaml", line 10, column 67
+2019-05-09 11:06:41,828 ERROR    root            (gcloud.app.deploy) An error occurred while parsing file: [/home/jirayupromsongwong/app.yaml]
+Value 'CLOUDSQL_CONNECTION_NAME cie-smart-city:us-central1:all-sensors' for key in EnvironmentVariables does not match expression '^(?:[a-zA-Z_][a-zA-Z0-9_]*)$'
+  in "/home/jirayupromsongwong/app.yaml", line 10, column 67

@@ -1,0 +1,22 @@
+2019-05-09 16:20:59,723 DEBUG    root            Loaded Command Group: [u'gcloud', u'init']
+2019-05-09 16:20:59,725 DEBUG    root            Running [gcloud.init] with arguments: []
+2019-05-09 16:20:59,725 INFO     ___FILE_ONLY___ Welcome! This command will take you through the configuration of gcloud.
+
+
+2019-05-09 16:20:59,726 INFO     ___FILE_ONLY___ Settings from your current configuration [default] are:
+
+2019-05-09 16:20:59,730 INFO     ___FILE_ONLY___ compute:
+  region: us-central1
+  zone: us-central1-c
+core:
+  account: jirayupromsongwong@gmail.com
+  disable_usage_reporting: 'True'
+  project: cie-smart-city
+
+2019-05-09 16:20:59,730 INFO     ___FILE_ONLY___ 
+
+2019-05-09 16:21:07,131 INFO     ___FILE_ONLY___ 
+
+Command killed by keyboard interrupt
+
+

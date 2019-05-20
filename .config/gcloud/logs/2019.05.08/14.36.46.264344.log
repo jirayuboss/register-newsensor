@@ -1,0 +1,53 @@
+2019-05-08 14:36:46,272 DEBUG    root            Loaded Command Group: [u'gcloud', u'init']
+2019-05-08 14:36:46,275 DEBUG    root            Running [gcloud.init] with arguments: []
+2019-05-08 14:36:46,275 INFO     ___FILE_ONLY___ Welcome! This command will take you through the configuration of gcloud.
+
+
+2019-05-08 14:36:46,277 INFO     ___FILE_ONLY___ Settings from your current configuration [default] are:
+
+2019-05-08 14:36:46,288 INFO     ___FILE_ONLY___ core:
+  account: 111320408594-compute@developer.gserviceaccount.com
+  disable_usage_reporting: 'True'
+  project: cie-smart-city
+
+2019-05-08 14:36:46,288 INFO     ___FILE_ONLY___ 
+
+2019-05-08 14:37:33,270 INFO     ___FILE_ONLY___ Your current configuration has been set to: [default]
+
+
+2019-05-08 14:37:33,271 INFO     ___FILE_ONLY___ You can skip diagnostics next time by using the following flag:
+
+2019-05-08 14:37:33,271 INFO     ___FILE_ONLY___   gcloud init --skip-diagnostics
+
+
+2019-05-08 14:37:33,271 INFO     ___FILE_ONLY___ Network diagnostic detects and fixes local network connection issues.
+
+2019-05-08 14:37:33,273 INFO     ___FILE_ONLY___ Checking network connection...
+2019-05-08 14:37:34,276 INFO     ___FILE_ONLY___ Reachability Check passed.
+
+2019-05-08 14:37:34,277 INFO     ___FILE_ONLY___ Network diagnostic (1/1 checks) passed.
+
+
+2019-05-08 14:37:40,793 INFO     ___FILE_ONLY___ You are logged in as: [111320408594-compute@developer.gserviceaccount.com].
+
+
+2019-05-08 14:37:40,841 WARNING  root            Listing available projects failed: HttpError accessing <https://cloudresourcemanager.googleapis.com/v1/projects?filter=lifecycleState%3AACTIVE&alt=json&pageSize=201>: response: <{'status': '403', 'content-length': '138', 'x-xss-protection': '0', 'x-content-type-options': 'nosniff', 'transfer-encoding': 'chunked', 'vary': 'Origin, X-Origin, Referer', 'server': 'ESF', 'server-timing': 'gfet4t7; dur=9', '-content-encoding': 'gzip', 'cache-control': 'private', 'date': 'Wed, 08 May 2019 14:37:40 GMT', 'x-frame-options': 'SAMEORIGIN', 'content-type': 'application/json; charset=UTF-8', 'www-authenticate': 'Bearer realm="https://accounts.google.com/", error="insufficient_scope", scope="https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloud-platform.read-only https://www.googleapis.com/auth/cloudplatformprojects https://www.googleapis.com/auth/cloudplatformprojects.readonly"'}>, content <{
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+>
+2019-05-08 14:37:54,150 INFO     ___FILE_ONLY___ Your current project has been set to: [cie-smart-city].
+
+
+2019-05-08 14:37:54,154 DEBUG    root            Loaded Command Group: [u'gcloud', u'compute', u'project_info']
+2019-05-08 14:37:54,178 DEBUG    root            Loaded Command Group: [u'gcloud', u'compute', u'project-info', u'describe']
+2019-05-08 14:37:54,179 INFO     root            Executing: [gcloud compute project-info describe --quiet]
+2019-05-08 14:37:54,182 DEBUG    root            Running [gcloud.compute.project-info.describe] with arguments: [--no-user-output-enabled: "false", --quiet: "True", --verbosity: "none"]
+2019-05-08 14:38:14,059 INFO     ___FILE_ONLY___ 
+
+Command killed by keyboard interrupt
+
+

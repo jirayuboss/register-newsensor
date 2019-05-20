@@ -1,0 +1,39 @@
+2019-05-08 14:45:43,649 DEBUG    root            Loaded Command Group: [u'gcloud', u'app']
+2019-05-08 14:45:43,653 DEBUG    root            Loaded Command Group: [u'gcloud', u'app', u'logs']
+2019-05-08 14:45:43,693 DEBUG    root            Loaded Command Group: [u'gcloud', u'app', u'logs', u'tail']
+2019-05-08 14:45:43,696 DEBUG    root            Running [gcloud.app.logs.tail] with arguments: [--service: "default"]
+2019-05-08 14:45:43,698 INFO     ___FILE_ONLY___ Waiting for new log entries...
+
+2019-05-08 14:45:49,766 INFO     ___FILE_ONLY___ 2019-05-08 14:41:30 default[20190508t144048]  "GET / HTTP/1.1" 500
+
+2019-05-08 14:45:49,767 INFO     ___FILE_ONLY___ 2019-05-08 14:41:44 default[20190508t144048]  "GET /favicon.ico HTTP/1.1" 500
+
+2019-05-08 14:45:49,768 INFO     ___FILE_ONLY___ 2019-05-08 14:43:11 default[20190508t144048]  "GET /home HTTP/1.1" 500
+
+2019-05-08 14:45:49,768 INFO     ___FILE_ONLY___ 2019-05-08 14:43:12 default[20190508t144048]  "GET /favicon.ico HTTP/1.1" 500
+
+2019-05-08 14:45:49,769 INFO     ___FILE_ONLY___ 2019-05-08 14:43:15 default[20190508t144048]  "GET /home HTTP/1.1" 500
+
+2019-05-08 14:45:49,769 INFO     ___FILE_ONLY___ 2019-05-08 14:43:16 default[20190508t144048]  "GET /favicon.ico HTTP/1.1" 500
+
+2019-05-08 14:45:49,770 INFO     ___FILE_ONLY___ 2019-05-08 14:43:17 default[20190508t144048]  "GET /home HTTP/1.1" 500
+
+2019-05-08 14:45:49,770 INFO     ___FILE_ONLY___ 2019-05-08 14:43:18 default[20190508t144048]  "GET /favicon.ico HTTP/1.1" 500
+
+2019-05-08 14:45:49,771 INFO     ___FILE_ONLY___ 2019-05-08 14:45:21 default[20190508t144443]  "GET / HTTP/1.1" 500
+
+2019-05-08 14:45:49,771 INFO     ___FILE_ONLY___ 2019-05-08 14:45:25 default[20190508t144443]  "GET /favicon.ico HTTP/1.1" 500
+
+2019-05-08 14:45:49,771 INFO     ___FILE_ONLY___ 2019-05-08 14:45:36 default[20190508t144443]  "GET / HTTP/1.1" 500
+
+2019-05-08 14:45:49,772 INFO     ___FILE_ONLY___ 2019-05-08 14:45:37 default[20190508t144443]  "GET /favicon.ico HTTP/1.1" 500
+
+2019-05-08 14:45:56,482 INFO     ___FILE_ONLY___ 2019-05-08 14:45:48 default[20190508t144443]  "GET / HTTP/1.1" 500
+
+2019-05-08 14:46:01,966 INFO     ___FILE_ONLY___ 2019-05-08 14:45:48 default[20190508t144443]  "GET /favicon.ico HTTP/1.1" 500
+
+2019-05-08 14:46:17,929 INFO     ___FILE_ONLY___ 
+
+Command killed by keyboard interrupt
+
+

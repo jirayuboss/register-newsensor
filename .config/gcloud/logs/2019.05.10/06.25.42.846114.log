@@ -1,0 +1,7 @@
+2019-05-10 06:25:42,848 DEBUG    root            Loaded Command Group: [u'gcloud', u'config']
+2019-05-10 06:25:42,850 DEBUG    root            Loaded Command Group: [u'gcloud', u'config', u'set']
+2019-05-10 06:25:42,853 DEBUG    root            Running [gcloud.config.set] with arguments: [SECTION/PROPERTY: "project", VALUE: "cie-smart-city"]
+2019-05-10 06:25:42,854 INFO     ___FILE_ONLY___ Updated property [core/project].
+
+2019-05-10 06:25:42,855 INFO     root            Display format: "default"
+2019-05-10 06:25:42,860 DEBUG    root            SDK update checks are disabled.

@@ -1,0 +1,80 @@
+2019-05-08 14:36:03,174 DEBUG    root            Loaded Command Group: [u'gcloud', u'init']
+2019-05-08 14:36:03,176 DEBUG    root            Running [gcloud.init] with arguments: []
+2019-05-08 14:36:03,176 INFO     ___FILE_ONLY___ Welcome! This command will take you through the configuration of gcloud.
+
+
+2019-05-08 14:36:03,178 INFO     ___FILE_ONLY___ Settings from your current configuration [default] are:
+
+2019-05-08 14:36:03,189 INFO     ___FILE_ONLY___ core:
+  account: 111320408594-compute@developer.gserviceaccount.com
+  disable_usage_reporting: 'True'
+  project: cie-smart-city
+
+2019-05-08 14:36:03,189 INFO     ___FILE_ONLY___ 
+
+2019-05-08 14:36:08,718 INFO     ___FILE_ONLY___ Your current configuration has been set to: [default]
+
+
+2019-05-08 14:36:08,718 INFO     ___FILE_ONLY___ You can skip diagnostics next time by using the following flag:
+
+2019-05-08 14:36:08,718 INFO     ___FILE_ONLY___   gcloud init --skip-diagnostics
+
+
+2019-05-08 14:36:08,718 INFO     ___FILE_ONLY___ Network diagnostic detects and fixes local network connection issues.
+
+2019-05-08 14:36:08,719 INFO     ___FILE_ONLY___ Checking network connection...
+2019-05-08 14:36:09,723 INFO     ___FILE_ONLY___ Reachability Check passed.
+
+2019-05-08 14:36:09,723 INFO     ___FILE_ONLY___ Network diagnostic (1/1 checks) passed.
+
+
+2019-05-08 14:36:16,758 INFO     ___FILE_ONLY___ You are logged in as: [111320408594-compute@developer.gserviceaccount.com].
+
+
+2019-05-08 14:36:17,089 WARNING  root            Listing available projects failed: HttpError accessing <https://cloudresourcemanager.googleapis.com/v1/projects?filter=lifecycleState%3AACTIVE&alt=json&pageSize=201>: response: <{'status': '403', 'content-length': '138', 'x-xss-protection': '0', 'x-content-type-options': 'nosniff', 'transfer-encoding': 'chunked', 'vary': 'Origin, X-Origin, Referer', 'server': 'ESF', 'server-timing': 'gfet4t7; dur=277', '-content-encoding': 'gzip', 'cache-control': 'private', 'date': 'Wed, 08 May 2019 14:36:17 GMT', 'x-frame-options': 'SAMEORIGIN', 'content-type': 'application/json; charset=UTF-8', 'www-authenticate': 'Bearer realm="https://accounts.google.com/", error="insufficient_scope", scope="https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloud-platform.read-only https://www.googleapis.com/auth/cloudplatformprojects https://www.googleapis.com/auth/cloudplatformprojects.readonly"'}>, content <{
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+>
+2019-05-08 14:36:23,274 DEBUG    root            (gcloud.init) The project property must be set to a valid project ID, not the project name [gcloud init]
+To set your project, run:
+
+  $ gcloud config set project PROJECT_ID
+
+or to unset it, run:
+
+  $ gcloud config unset project
+Traceback (most recent call last):
+  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 848, in Execute
+    resources = calliope_command.Run(cli=self, args=args)
+  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 770, in Run
+    resources = command_instance.Run(args)
+  File "/usr/lib/google-cloud-sdk/lib/surface/init.py", line 133, in Run
+    if not self._PickProject(preselected=args.project):
+  File "/usr/lib/google-cloud-sdk/lib/surface/init.py", line 278, in _PickProject
+    properties.PersistProperty(properties.VALUES.core.project, project_id)
+  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/core/properties.py", line 1929, in PersistProperty
+    prop.Validate(value)
+  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/core/properties.py", line 1711, in Validate
+    self.__validator(value)
+  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/core/properties.py", line 1100, in ProjectValidator
+    'project name [{value}]'.format(value=project))
+InvalidProjectError: The project property must be set to a valid project ID, not the project name [gcloud init]
+To set your project, run:
+
+  $ gcloud config set project PROJECT_ID
+
+or to unset it, run:
+
+  $ gcloud config unset project
+2019-05-08 14:36:23,286 ERROR    root            (gcloud.init) The project property must be set to a valid project ID, not the project name [gcloud init]
+To set your project, run:
+
+  $ gcloud config set project PROJECT_ID
+
+or to unset it, run:
+
+  $ gcloud config unset project

@@ -1,0 +1,7 @@
+2019-05-10 06:32:27,512 DEBUG    root            Loaded Command Group: [u'gcloud', u'config']
+2019-05-10 06:32:27,514 DEBUG    root            Loaded Command Group: [u'gcloud', u'config', u'set']
+2019-05-10 06:32:27,516 DEBUG    root            Running [gcloud.config.set] with arguments: [SECTION/PROPERTY: "project", VALUE: "register-new-sensor"]
+2019-05-10 06:32:27,517 INFO     ___FILE_ONLY___ Updated property [core/project].
+
+2019-05-10 06:32:27,518 INFO     root            Display format: "default"
+2019-05-10 06:32:27,523 DEBUG    root            SDK update checks are disabled.

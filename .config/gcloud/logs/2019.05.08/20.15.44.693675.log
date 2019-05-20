@@ -1,0 +1,28 @@
+2019-05-08 20:15:44,699 DEBUG    root            Loaded Command Group: [u'gcloud', u'sql']
+2019-05-08 20:15:44,701 DEBUG    root            Loaded Command Group: [u'gcloud', u'sql', u'instances']
+2019-05-08 20:15:44,705 DEBUG    root            Loaded Command Group: [u'gcloud', u'sql', u'instances', u'describe']
+2019-05-08 20:15:44,708 DEBUG    root            Running [gcloud.sql.instances.describe] with arguments: [INSTANCE: "cie-smart-city:us-central1:all-sensors"]
+2019-05-08 20:15:44,723 INFO     oauth2client.client Refreshing access_token
+2019-05-08 20:15:44,801 DEBUG    root            (gcloud.sql.instances.describe) Instance names cannot contain the ':' character. If you meant to indicate the
+project for [all-sensors], use only 'all-sensors' for the argument, and either add
+'--project cie-smart-city' to the command line or first run
+  $ gcloud config set project cie-smart-city
+Traceback (most recent call last):
+  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 848, in Execute
+    resources = calliope_command.Run(cli=self, args=args)
+  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 770, in Run
+    resources = command_instance.Run(args)
+  File "/usr/lib/google-cloud-sdk/lib/surface/sql/instances/describe.py", line 82, in Run
+    validate.ValidateInstanceName(args.instance)
+  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/api_lib/sql/validate.py", line 34, in ValidateInstanceName
+    """.format(project=possible_project, instance=possible_instance))
+ToolException: Instance names cannot contain the ':' character. If you meant to indicate the
+project for [all-sensors], use only 'all-sensors' for the argument, and either add
+'--project cie-smart-city' to the command line or first run
+  $ gcloud config set project cie-smart-city
+
+2019-05-08 20:15:44,807 ERROR    root            (gcloud.sql.instances.describe) Instance names cannot contain the ':' character. If you meant to indicate the
+project for [all-sensors], use only 'all-sensors' for the argument, and either add
+'--project cie-smart-city' to the command line or first run
+  $ gcloud config set project cie-smart-city
+

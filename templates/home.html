@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+   <body>
+      <table border = 1>
+      {% for all in data %}
+         {% for key, value in all.items() %}
+            <tr>
+               <th> {{ key }} </th>
+               <td> {{ value }} </td>
+            </tr>
+         {% endfor %}
+      {% endfor %}
+      </table>
+      <form action = "{{ url_for('home') }}" method = "POST">
+         <p><input type = "submit" name = "add_button" value = "Add" /></p>
+      </form>
+   </body>
+</html>
